@@ -3,26 +3,27 @@
 	<head>
 		<meta charset="uft-8">
 		<title>Jeferson Matsui</title>
+		<link rel="stylesheet" href="./assets/css/style.css">
 	</head>
 	<body>
 		<!--Título da página-->
 		<header>
-			<img src="./assets/image/jeferson.jfif" alt="Ilustração do rosto do Jeferson">
-			<h1>JEFERSON MATSUI</h1>
+			<img src="./assets/image/jeferson.jfif" alt="Ilustração do rosto do Jeferson" class="photo">
+			<h1 id="title">JEFERSON MATSUI</h1>
 		</header>
 		<!--Criar uma seção de conteúdo-->
 		<section>
 			<header>
-				<h2>Posts</h2>
+				<h2 class="subtitle">Posts</h2>
 			</header>
-			<article>
+			<article class="post">
 				<header>
-					<h3>Post #1</h3>
+					<h3 class="post-title">Post #1</h3>
 					<!--Otimizar imagens com tinypng.com-->
-					<img src="./assets/image/matrix.jpg" alt="Fundo Matrix" width="500" height="200">
+					<img src="./assets/image/matrix.jpg" alt="Fundo Matrix" class="post-image" >
 				</header>
 				<!--target vai fazer o link abrir em outra aba-->
-				<p>
+				<p class="post-content">
 					"<a href="mailto:loremipsum@loremipsum.com">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit, 
 					sed do <a href="https://www.linkedin.com/in/jefersonmatsui/" target="_blank"></a>eiusmod tempor incididunt</a> 
 					ut labore et dolore magna aliqua. 
@@ -35,7 +36,7 @@
 		<!--Rodapé-->
 		<footer>
 			<!--Lista sem definição de ordem-->
-			<ul>
+			<ul class="contacts-list">
 				<li>
 					<a href="mailto:jefersonmatsui@gmail.com">jefersonmatsui@gmail.com</a>
 				</li>
@@ -59,9 +60,5 @@
 				</li>
 			</ol>			
 		</footer>
-		Jeferson Matsui
 	</body>
-
-
-
 </html>
