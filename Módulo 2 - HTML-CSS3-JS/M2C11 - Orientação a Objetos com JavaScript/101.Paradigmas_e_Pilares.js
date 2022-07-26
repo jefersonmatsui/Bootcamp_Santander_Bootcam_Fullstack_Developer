@@ -32,7 +32,7 @@ a fim de simplificar a asua avaliação, classificação ou para permitir a comu
 
 // 2.2. Herança
 /*
-O objeto filho herda propeirdades e métodos do objeto pai
+O objeto filho herda propriedades e métodos do objeto pai
 */
 
 // 2.3. Encapsulamento
